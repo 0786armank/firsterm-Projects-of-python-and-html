@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling\resto.css">
+        <!-- <style>
+             h1{text-shadow:2px 2px 35px rgb(5, 219, 247); color:rgb(244, 245, 245)}
+
+        </style> -->
+    </head>
+    <body>
+        <div class="banner">
+            
+            <div class="navbar">
+                <img src="icons and pictures\images (2).jpeg" class="logo">         
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/pages/RESTAURENT.html">Home</a></li>
+                    <li><a href="https://www.zomato.com/">Order</a></li>
+                    <li><a href="http://127.0.0.1:5501/contact.html">Contact Us</a></li>
+                    <li><a href="http://127.0.0.1:5501/pages/feedback.html">Feedback</a></li>
+                    <li><a href="http://127.0.0.1:5501/pages/login.html">Login</a></li>    
+                </ul>
+            </div>
+            <div class="content">
+                <div class="title">
+                     Here,Food is
+                    <div class="slider">
+                        <div>APPETIZING</div>
+                        <div>DELICIOUS</div>
+                        <div>HEALTHY</div>
+                    </div>
+                </div>
+                
+                
+                <button type="button" onclick="myFunction()"><strong>Your Name</strong></button>
+
+                <p id="demo" style="font-size:large; font-family:verdana;"></p>
+                <p>We hope you're doing fine,<br><b>Need food and a good place to eat?</b> <br> Welcome to our humble place where you can eat good food peacefully
+                </p>
+
+<script>
+    function myFunction() {
+                let text;
+                let person = prompt("Please enter your name:")
+                if (person == null || person == "") {
+                    text = "User cancelled the prompt.";
+                } else {
+                    text = "Hello " + person + "! How are you today?";
+                }
+                document.getElementById("demo").innerHTML = text;
+                }
+</script>
+            </div>
+        </div>
+    </body>
+</html>
